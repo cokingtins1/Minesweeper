@@ -76,12 +76,3 @@ function checkGameEnd() {
 function stopProp(e) {
 	e.stopImmediatePropagation()
 }
-
-console.log(board)
-
-// 1. Populate a board with tiles/mines
-// 2. left-click on tiles
-// a. reveal tiles
-// 3. right-click on tiles
-// b. mark tile
-// 4. check for win/loss
